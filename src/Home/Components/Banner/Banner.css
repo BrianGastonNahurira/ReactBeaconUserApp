@@ -1,0 +1,53 @@
+* {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.banner {
+  height: 10vh;
+  width: 100%;
+  margin: 0px !important;
+  padding: 0px !important;
+  background-color: #29abe2 !important;
+  z-index: 5;
+  /* animation: banner-expand 3s ease-in-out 1 forwards; */
+}
+.banner h2 {
+  padding: 20px 0px 0px 0px !important;
+  text-align: center;
+  color: white;
+}
+
+@keyframes banner-expand {
+  from {
+    height: 0px;
+  }
+  to {
+    height: 10vh;
+  }
+}
+
+/*  
+Media querries 
+
+
+Mobile view 
+Tablet view
+*/
+
+/* Tablet View */
+@media screen and (max-width: 768px) {
+  .banner {
+    height: 15vh;
+    width: 100%;
+    /* padding: 20px !important; */
+  }
+}
+
+/* Mobile view */
+@media screen and (max-width: 576px) {
+  .banner {
+    height: 18vh;
+    width: 100%;
+    /* padding: 20px !important; */
+  }
+}

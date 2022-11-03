@@ -1,0 +1,56 @@
+/* .card {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: white;
+} */
+/* .booking {
+  width: 100%;
+  margin: auto !important;
+} */
+.bookingdetails {
+  display: flex;
+  flex: 2;
+  justify-content: space-between;
+  padding-top: 20px !important;
+}
+.message {
+  align-items: center;
+  text-align: center;
+}
+.message p {
+  padding: 20px !important;
+}
+.bookingdetails1 {
+  flex: 1;
+}
+.bookingdetails2 {
+  flex: 1;
+}
+.booking-form {
+  margin: 30px !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: rgb(254, 248, 248);
+  border: 2px solid rgb(226, 223, 223);
+}
+.tf {
+  padding: 15px !important;
+}
+.btn-btn {
+  padding: 10ppx !important;
+}
+#booking-btn {
+  padding: 10px !important;
+}
+
+.payment-mtds img {
+  width: 30vh;
+  height: 15vh;
+  padding: 0px 30px !important;
+}
+.booking {
+  text-align: center;
+}
+.booking1 {
+  padding: 50px 0px !important;
+}
