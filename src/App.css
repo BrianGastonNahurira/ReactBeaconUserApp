@@ -30,12 +30,14 @@
 }
 
 * {
-  padding: 0;
-  margin: 0;
+  padding: 0 !important;
+  margin: 0 !important;
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
   font-family: "Lato", sans-serifs;
+  max-width: 100vw;
+  /* overflow-x: hidden; */
 }
 a {
   color: black;
@@ -43,4 +45,7 @@ a {
 
 body {
   background-color: #f1f5f9;
+}
+#outlined-basic{
+  height: 60px;
 }

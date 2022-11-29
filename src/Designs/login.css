@@ -1,0 +1,35 @@
+.login1_ctr img{
+    width: 30%;
+    height: 30%;
+}
+.login_ctr{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50% !important;
+    margin: auto !important;
+}
+
+#btn{
+    height: 50px;
+    margin-top: 13px !important;
+    width: 50% !important;
+  }
+#account-link{
+    margin-top: 15px !important;
+}
+
+
+@media screen and (max-width: 768px) {
+.login1_ctr img{
+    width: 60%;
+    height: 50%;
+}
+.login_ctr{
+    width: 100% !important;
+    margin: auto !important;
+}
+#btn{
+    width: 70% !important;
+  }
+}

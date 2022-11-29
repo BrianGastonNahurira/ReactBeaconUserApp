@@ -1,0 +1,86 @@
+
+.bookingdetails {
+  width: 98% !important;
+  margin: 15px auto !important;
+  display: flex;
+  flex: 2;
+  justify-content: space-between;
+  padding-top: 20px !important;
+}
+.message {
+  align-items: center;
+  text-align: center;
+}
+.message p {
+  padding: 20px !important;
+}
+.bookingdetails1 {
+  flex: 1;
+}
+
+.bookingdetails2 {
+  flex: 2;
+  padding: 15px;
+}
+.tf{
+  padding: 15px !important;
+}
+
+.btn-btn {
+  padding: 10px !important;
+}
+#booking-btn {
+  padding: 10px !important;
+}
+
+.payment-mtds img {
+  width: 30vh;
+  height: 15vh;
+  padding: 0px 30px !important;
+}
+
+.booking1 {
+  padding: 50px 0px !important;
+}
+.booking-inputs-ctr form{
+  margin: 25px !important;
+
+}
+.bking-inputs-ctr-d {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+.booking-inputs-ctr{
+  margin: 30px !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.bking-inputs-ctr-hw{
+  padding: 15px 20px;
+  
+}
+#outlined-basic{
+  height: 60px;
+}
+.MuiAlert-root{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 45px;
+
+}
+
+/*....media queries....*/
+@media screen and (max-width: 768px) {
+.bookingdetails {
+  display: flex;
+  flex-direction: column;
+}
+.booking-inputs-ctr{
+  margin: 5px !important;
+}
+
+}
+
+

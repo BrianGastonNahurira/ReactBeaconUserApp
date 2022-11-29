@@ -1,0 +1,90 @@
+.item_ctr{
+    width: 70% ;
+    margin: 15px auto !important;
+}
+._item_card{
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+._icimg{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+._icdes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+
+.ictitle{
+    font-size: 20px;
+    color: #0071c2;
+}
+.ic_dst{
+    font-size: 12px;
+}
+.ic_free{
+    font-size: 12px;
+    background-color: #008009;
+    color: #fff;
+    width: max-content;
+    padding: 3px;
+    border-radius: 5px;
+}
+.ic_st{
+    font-size: 12px;
+    font-weight: bold;
+}
+.ic_bth{
+    font-size: 12px;
+}
+.ic_canc{
+    font-size: 12px;
+    color: #008009;
+    font-weight: bold;
+}
+.canc_subopt{
+    font-size: 12px;
+    color: #008009;
+}
+._icdetails{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ic_ratingd{
+    display: flex;
+    justify-content: space-between;
+}
+.ic_ratingd>span{
+    font-weight: bold;
+}
+.ic_detailstxt{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 5px;
+}
+._abtn{
+    background-color: #0071c2;
+    color: #fff;
+    padding: 10px 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    height: 2.3rem;
+    cursor: pointer;
+}
+._r_btn{
+    background-color: #0071c2;
+    color: #fff;
+    padding: 10px;
+}
